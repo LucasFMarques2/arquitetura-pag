@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 9.2rem;
+}
+
+section{
+    font-size: 2.0rem;
+    justify-content: space-between;
+}
+
+section a{
+    margin: 2rem;
+    color: black;
+}
+
+
+section a.active{
+    color: #0C70F2;
+}
+
+section a:hover{
+    color: #1959ad;
+}
