@@ -1,7 +1,7 @@
 import './style.css'
 import whiteArrow from '../../assets/white-arrow.svg'
 
-// eslint-disable-next-line react/prop-types
+// eslint-disable-next-line react/prop-types, no-unused-vars
 export function Button({arrow, buttonStyle, loading, children, ...props}){
     return(
         <button className={`button ${buttonStyle}`} {...props}>
