@@ -9,7 +9,7 @@ body{
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
     color: #292F36;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 a{
@@ -44,6 +44,28 @@ textarea, input {
     background-color: #f6f6f6;
 }
 
+.grey-1-color{
+    color: #4d5053;
+}
+
+/*Tipograia*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2.5px;
+}
+
+p{
+    line-height: 150%;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+
 /* GRID */
 .container{
     margin: 0 auto;
@@ -69,15 +91,15 @@ textarea, input {
     flex-direction: column;
 }
 
-.js-center{
+.jc-center{
     justify-content: center;
 }
 
-.js-end{
+.jc-end{
     justify-content: end;
 }
 
-.js-space-between{
+.jc-space-between{
     justify-content: space-between;
 }
 
