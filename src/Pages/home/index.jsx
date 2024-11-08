@@ -1,16 +1,16 @@
 import { Header } from "../../Components/Header"
 import { Footer } from "../../Components/Footer"
-import { Button } from "../../Components/Button"
-import { Banner } from "../../Components/Banner"
-
+import { Hero } from "../../Components/Hero"
+import { ProjectList } from "../../Components/ProjectList"
 
 export function Home(){
     return(
         <>
             <Header/>
-            <h1>home</h1>
-            <Button buttonStyle="secundary" arrow>Olá</Button>
-            <Banner title='home' image='Banner.jpg'/>
+            <div className="container">
+                <Hero/>
+                <ProjectList/>
+            </div>
             <Footer/>
         </>
     )
