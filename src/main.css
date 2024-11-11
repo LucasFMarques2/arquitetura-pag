@@ -23,7 +23,7 @@ textarea, input {
 }
 
 .primary-color{
-    background-color: #0c70f2;
+    color: #0c70f2;
 }
 
 .segundary-background{
@@ -31,7 +31,7 @@ textarea, input {
 }
 
 .segundary-color{
-    background-color: #1d1d1d;
+    color: #1d1d1d;
 }
 
 .tertiary-background{
@@ -39,7 +39,7 @@ textarea, input {
 }
 
 .tertiary-color{
-    background-color: #f6f6f6;
+    color: #f6f6f6;
 }
 
 .grey-1-color{
